@@ -1,0 +1,55 @@
+#wrapper{
+    background-color:black;
+    width: 970px;
+    height: 700px;
+    margin: 10px auto;
+    position:relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#selectOuter{
+    width:300px;
+    height: 175px;
+    background-color:#949494;
+    margin: 0 auto;
+    text-align:center;
+    position:relative;
+    top: 150px;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+
+.selectText{
+    color:orange;
+    font-size: 23px;
+    margin: 25px 0px;
+    text-shadow: 2px 2px 1px white;
+}
+
+button{
+    display:inline-block;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    margin: 1px;
+}
+
+.player{
+    display:inline-block;
+    height: 300px;
+    width: 200px;
+    vertical-align: bottom;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#player_left{
+    position:relative;
+    top:100px;
+    left:50px;
+}
+#player_right{
+    position:relative;
+    left: 500px;
+    top:100px;
+}
